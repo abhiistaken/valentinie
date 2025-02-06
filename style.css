@@ -1,0 +1,80 @@
+.main-text{
+    text-align: center;
+    margin-top: 10%;
+    display: none;
+    transition: 2s;
+    font-size: 3em;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  word-wrap:break-word;
+}
+
+.ask{
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100px ;
+    height:100px ;
+    font-size: 2.3em;
+    font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  opacity: .9;
+  animation: idle 4s 0.1s infinite;
+  border: black solid 1px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(f5660e6a3a2c2ce4ea4abaa4ccc8803e\ \(1\).jpg);
+    background-size: cover !important;
+    transition: 1s;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@keyframes idle{
+    50%{
+        margin-top: 4%;
+    }
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120%;
+    gap: .6em;
+    display: none;
+    text-align: center;
+}
+
+.button-div button{
+    border: none;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    font-size: 1.5em;
+}
+
+.lay{
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    top: 1%;
+    opacity: .7;
+}
